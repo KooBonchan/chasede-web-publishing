@@ -1,0 +1,22 @@
+.centered{
+    text-align: center;
+}
+
+.custom-bullets {
+    list-style-type: none; /* Remove default bullets */
+    padding-left: 0; /* Remove padding */
+  }
+  
+  .custom-bullets li {
+    position: relative;
+    padding-left: 20px; /* Add space for the custom bullet */
+  }
+  
+  .custom-bullets li::before {
+    content: '@'; /* Custom bullet symbol */
+    position: absolute;
+    top: -10px;
+    left: -15px; /* Position it on the left */
+    color:darkcyan; /* Change color */
+    font-size: 30px; /* Size of the bullet */
+  }
