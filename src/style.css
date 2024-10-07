@@ -1,0 +1,33 @@
+
+form{
+    margin:0 auto;
+}
+
+.block {
+    justify-content: left;
+    display: flex;
+    width:400px;
+    margin-top: 2px;
+}
+.form-label{
+    width: 100px;
+}
+.block>textarea{
+    width:290px;
+    border-width: 2px;
+}
+input.long-input{
+    width:290px;
+}
+
+#id{
+    width: 119px;
+}
+
+.form-end{
+    margin-top: 15px;
+    justify-content:center;
+}
+.form-end>input{
+    margin-left: 15px;
+}

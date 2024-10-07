@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Sample</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form action="" method="post">
+        <h1>Sign Up</h1>
+        <div class="block">
+            <div class="form-label">
+                <label for="name">Name </label>
+            </div>
+            <input name="name" id="name" type="text" autofocus autocomplete="username" required>
+        </div>
+        <div class="block">
+            <div class="form-label">
+                <label for="id">ID </label>
+            </div>
+            <input name="id" id="id" type="text" required>
+            <input name="id_verify" type="button" value="Verify">
+        </div>
+        
+        <div class="block">
+            <div class="form-label">
+                <label for="pw_verify">Verify PW</label>
+            </div>
+            <input type="password" name="pw_verify" id="pw_verify" required>
+        </div>
+        <div class="block">
+            <div class="form-label">
+                <label for="pw">PW </label>
+            </div>
+            <input name="pw" id="pw" type="password" required>
+        </div>
+        <div class="block">
+            <div class="form-label">
+                <label for="email">e-mail </label>
+            </div>
+            <input name="email" id="email" type="email" autocomplete>
+        </div>
+        <div class="block">
+            <div class="form-label">
+                <label for="rank">Rank </label>
+            </div>
+            <div class="selector">
+                <input type="radio" name="rank" value="Guest" checked>Guest
+                <input type="radio" name="rank" value="Admin">Admin
+            </div>
+        </div>
+        
+        <div class="block form-end">
+            <input type="submit" value="submit">
+            <input type="reset" value="cancel">
+        </div>
+        
+    </form>
+</body>
+</html>
