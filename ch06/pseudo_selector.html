@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0 auto;
+            padding: 0;
+        }
+        a{
+            color:inherit;
+            text-decoration:none;
+        }
+        
+
+        a:link {
+            color:blue;
+        }
+        a:visited {
+            color:red;
+        }
+        a:hover {
+            text-decoration:underline;
+        }
+        a:active {
+            background-color: green;
+        }
+
+
+        .block{
+            border: 1px dashed; width:50rem; height:20rem;
+            background-color: #dfd;
+        }
+        .block:hover{
+            background-color: #ddd;
+        }
+
+        .trans:hover {
+            width:10rem;
+            transition:all 2s linear;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudo Class</h1>
+    <p>
+        <a href="https://m.naver.com/">text sample</a>
+        was gone.
+    </p>
+    <div class="block">
+        <h3>
+            Block 1
+        </h3>
+    </div>
+    <div class="block">
+        <h3>Block 2</h3>
+    </div>
+
+    <div class="trans block">
+        <h3>Block shrinks</h3>
+    </div>
+</body>
+</html>
