@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .hintsheet, .cheatsheet{
+            visibility:hidden;
+        }
+        h1:first-letter{
+            font-size: 55px;
+            text-transform: capitalize;
+        }
+
+        input {
+            height: 22px;
+        }
+        input:focus {
+            height : 33px;
+        }
+        input:checked + .hintsheet{
+            visibility: inherit;
+            background-color: black;
+            color: white;
+        }
+        input:checked + .cheatsheet{
+            visibility: inherit;
+            background-color: gray;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <h1> pseudo-class </h1>
+
+    <form action="" method="get">
+        <label for="answer">Answer: </label>
+        <input type="text" name="answer" id="answer">
+    </form>
+    
+
+    <label for="hint">HINT: </label>
+    <input type="checkbox" name="hint" id="hint">
+    <div class="hintsheet">
+        hint1
+    </div>
+    <label for="cheat">ANSWER: </label>
+    <input type="checkbox" name="cheat" id="cheat">
+    <div class="cheatsheet">
+        answer1
+    </div>
+
+
+</body>
+</html>
