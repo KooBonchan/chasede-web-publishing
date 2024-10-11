@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .div1{
+            float:left;
+            width:100px;
+            height:50px;
+            margin:10px;
+            border: 3px solid #113355;
+        }
+
+        .div2{
+            border: 1px solid #aabbcc;
+        }
+
+        .div3{
+            border: 1px solid #553311;
+            width:100px;
+            height:50px;
+            margin:10px;
+        }
+        .div4{
+            border: 1px solid #aabbcc;
+            clear:both;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>float</h2>
+    <div class="div1">
+        div1
+    </div>
+    <div class="div2">
+        Example Scenario
+Imagine you have a floated image on the left side of a paragraph.
+ If you want to ensure that a subsequent block of text 
+ (or another element) starts below the floated image,
+  you would apply clear to that element:
+    </div>
+
+    <h2>clear</h2>
+    <div class="div3">div3</div>
+    <div class="div4">Legacy Layouts
+Using float and clear was common in older layouts 
+before the introduction of Flexbox and CSS Grid.
+While these newer methods offer more flexibility and control, 
+understanding float and clear is still essential for maintaining 
+and reading legacy code.
+They can effectively help you manage layout flow
+when you're dealing with older designs that rely on these properties.</div>
+    
+</body>
+</html>

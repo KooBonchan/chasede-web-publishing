@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            font-weight:bold;
+            font-size: 15pt;
+            margin: 0 auto;
+            padding: 0;
+        }
+        .box{
+            background-color: aliceblue;
+            width:300px;
+            height:100px;
+            margin: 2px;
+        }
+
+        .rel1{
+            position: relative;
+            z-index: 20;
+            left: 30px;
+            top: -30px;
+            border: 2px solid #ccddee;
+            text-align: right;
+            
+        }
+        .rel2{
+            position: relative;
+            z-index: 40;
+            left: 60px;
+            top: -60px;
+            border: 2px solid #aabbcc;
+        }
+        .abs{
+            position:absolute;
+            top:3px;
+            right:50px;
+        }
+
+        .fixed{
+            position:fixed;
+            width:200px;
+            height:200px;
+            background-color: indianred;
+            color: navy;
+            right:150px;
+            top:300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .inline{
+            display:inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1> Position </h1>
+    <div class="box">Base</div>
+    <div class="box rel1">Relative 1</div>
+    <div class="box rel2">Relative 2</div>
+    <div class="box">Base</div>
+    <div class="box">Base</div>
+    <div class="box">Base</div>
+    <div class="box">Base</div>
+    <div class="box inline">Base</div>
+    <div class="box inline">Base</div>
+    <div class="box inline">Base</div>
+    <div class="box">Base</div>
+    <div class="box">Base</div>
+    <div class="box">Base</div>
+    <div class="box">Base</div>
+    <div class="box inline">Base</div>
+    <div class="box inline">Base</div>
+    <div class="box inline">Base</div>
+    <div class="box">Base</div>
+    <div class="box">Base</div>
+    <div class="box">Base</div>
+    <div class="box">Base</div>
+    <div class="box inline">Base</div>
+    <div class="box inline">Base</div>
+    <div class="box inline">Base</div>
+    
+
+    <div class="box abs">Abs</div>
+
+    <div class="fixed">Fixed</div>
+</body>
+</html>

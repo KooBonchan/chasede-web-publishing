@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0 auto;
+            padding: 0;
+            list-style: none;
+        }
+        a{
+            display:block;
+            text-decoration: none;
+            color:inherit;
+        }
+        a:active{
+            text-decoration: none;;
+        }
+        html{
+            width:1000px;
+        }
+
+        .wrapper{overflow: auto;}
+        nav{
+            background-color: #eef;
+            float:left;
+            width: 200px;
+            height: 100vh;
+        }
+        nav span{
+            margin: 5px 0 0 5px;
+            font-size:24px;
+            font-weight:bold;
+        }
+        nav ul li{
+            padding-left: 2em;
+        }
+        nav ul li:hover{
+            background-color: #ccf;
+            font-weight:bold;
+        }
+        section{
+            float:right;
+            width:700px;
+            padding: 50px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <span>Index</span>
+            <ul>
+                <li><a href="https://www.google.com">google</a></li>
+                <li><a href="https://www.naver.com">naver</a></li>
+                <li><a href="https://www.adobe.com">adobe</a></li>
+                <li><a href="https://www.amazon.com">amazon</a></li>
+                <li><a href="https://www.daum.net">daum</a></li>
+                <li><a href="https://www.bassgosushop.com">bassgosushop</a></li>
+                <li><a href="https://www.w3c.com">w3c</a></li>
+            </ul>
+        </nav>
+        <section>
+            <span>How clear Works</span>
+            <p>Behavior: The behavior can vary based on the value you set for clear:
+        clear: left: The element will be pushed down below any elements floated to the left.
+        clear: right: The element will be pushed down below any elements floated to the right.
+        clear: both: The element will be pushed down below all floated elements, regardless of whether they float to the left or right.</p>
+        </section>
+        <section>
+            <span>Example Scenario</span>
+            <p>
+        Using float and clear was common in older layouts before the introduction of Flexbox and CSS Grid. While these newer methods offer more flexibility and control, understanding float and clear is still essential for maintaining and reading legacy code. They can effectively help you manage layout flow when you're dealing with older designs that rely on these properties.
+            </p>
+        </section>
+    </div>
+</body>
+</html>

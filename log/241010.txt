@@ -1,0 +1,5 @@
+div -- 기본적으로 수직으로 쌓임
+inline--block -- 기본적으로 수평으로 쌓임
+    글자와 같이 블록을 취급?
+
+grid row start end : >=, <
